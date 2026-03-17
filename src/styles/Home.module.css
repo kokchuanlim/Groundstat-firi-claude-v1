@@ -1,0 +1,215 @@
+.hero {
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+  border-bottom: 0.5px solid var(--color-border);
+}
+
+.heroInner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.eyebrow {
+  display: inline-block;
+  background: var(--blue-50);
+  color: #185FA5;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 14px;
+  border-radius: 20px;
+  letter-spacing: 0.06em;
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+}
+
+.accent { color: #185FA5; }
+
+.heroSub {
+  font-size: 16px;
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+}
+
+.heroCtas {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.statsRow {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  padding: 2rem;
+  border-bottom: 0.5px solid var(--color-border);
+  background: var(--color-bg-secondary);
+  flex-wrap: wrap;
+}
+
+.statItem { text-align: center; }
+.statNum { font-size: 24px; font-weight: 500; color: #185FA5; }
+.statLabel { font-size: 12px; color: var(--color-text-muted); margin-top: 2px; }
+
+.section {
+  padding: 4rem 2rem;
+}
+
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 500;
+  color: #185FA5;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.section h2 {
+  font-size: 26px;
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.sectionSub {
+  font-size: 15px;
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 580px;
+  margin-bottom: 2rem;
+}
+
+.scoreDemo {
+  background: var(--color-bg-secondary);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.scoreDemoHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.profileRow {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--blue-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #185FA5;
+  flex-shrink: 0;
+}
+
+.profileName { font-size: 14px; font-weight: 500; }
+.profileSub { font-size: 12px; color: var(--color-text-muted); }
+
+.firiBadge {
+  background: #185FA5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  text-align: center;
+}
+.firiNum { font-size: 32px; font-weight: 500; line-height: 1; }
+.firiLabel { font-size: 10px; letter-spacing: 0.06em; opacity: 0.75; margin-top: 3px; }
+.firiBand { font-size: 12px; opacity: 0.8; margin-top: 3px; }
+
+.barRow {
+  display: grid;
+  grid-template-columns: 140px 1fr 36px 120px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.barLabel { font-size: 13px; color: var(--color-text-muted); }
+
+.barTrack {
+  height: 8px;
+  background: var(--color-bg);
+  border-radius: 4px;
+  overflow: hidden;
+  border: 0.5px solid var(--color-border);
+}
+
+.barFill { height: 100%; border-radius: 4px; }
+.barVal { font-size: 13px; font-weight: 500; text-align: right; }
+.barTag { font-size: 11px; color: var(--color-text-muted); }
+
+.audienceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 2rem;
+}
+
+.processCard {
+  background: var(--color-bg-secondary);
+  border: 0.5px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 0.5rem 1.25rem;
+}
+
+.step {
+  display: flex;
+  gap: 1rem;
+  padding: 1.25rem 0;
+}
+
+.stepNum {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--blue-50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  color: #185FA5;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.stepTitle { font-size: 14px; font-weight: 500; margin-bottom: 4px; }
+.stepBody { font-size: 13px; color: var(--color-text-muted); line-height: 1.65; margin-bottom: 4px; }
+.stepMeta { font-size: 11px; color: #185FA5; }
+
+.ctaSection {
+  background: var(--color-bg-secondary);
+  border-top: 0.5px solid var(--color-border);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.ctaSection h2 { font-size: 24px; font-weight: 500; margin-bottom: 0.75rem; }
+.ctaSection p { font-size: 15px; color: var(--color-text-muted); margin-bottom: 1.75rem; }
+.ctaNote { font-size: 12px; color: var(--color-text-muted); margin-top: 1rem; margin-bottom: 0 !important; }
+
+@media (max-width: 640px) {
+  .hero h1 { font-size: 28px; }
+  .barRow { grid-template-columns: 100px 1fr 30px; }
+  .barTag { display: none; }
+}

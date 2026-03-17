@@ -1,0 +1,89 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+  height: 56px;
+  border-bottom: 0.5px solid var(--color-border);
+  background: var(--color-bg);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.logoMark {
+  width: 30px;
+  height: 30px;
+  background: #185FA5;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logoMark svg {
+  width: 16px;
+  height: 16px;
+}
+
+.logoText {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.logoSub {
+  font-size: 10px;
+  color: var(--color-text-muted);
+  letter-spacing: 0.03em;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links a {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  transition: color 0.15s;
+}
+
+.links a:hover {
+  color: var(--color-text);
+}
+
+.links a.active {
+  color: #185FA5;
+  font-weight: 500;
+}
+
+.ctaBtn {
+  background: #185FA5 !important;
+  color: #fff !important;
+  padding: 7px 18px;
+  border-radius: var(--radius-md);
+  font-size: 13px;
+  font-weight: 500 !important;
+  transition: background 0.15s !important;
+}
+
+.ctaBtn:hover {
+  background: #0C447C !important;
+}
+
+@media (max-width: 640px) {
+  .links a:not(.ctaBtn) {
+    display: none;
+  }
+}
